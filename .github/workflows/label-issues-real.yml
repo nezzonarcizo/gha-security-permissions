@@ -6,7 +6,7 @@ on:
 jobs:
   assign-label:
     permissions:
-      issues: write
+      issues: write # If this permission is not set, the action will fail
     runs-on: ubuntu-latest
     steps:
       - name: Assign label
